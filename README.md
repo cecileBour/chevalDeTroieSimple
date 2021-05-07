@@ -33,4 +33,10 @@ Les leurres (fausses bannière de connexion) ainsi que les espions de claviers (
 L’action "offensive" d’un cheval de Troie consiste, pratiquement toujours, à récupérer une ou plusieurs informations et s’effectue passivement par analyse (le sniffing) des paquets IP transitant par le réseau ou envoi à des adresses fixées.
 
 ## Explications de mon code : 
+C'est en quelque sorte du reverse TCP.
+La partie serveur est codée en C, une fois compilée, on a un binaire pour Windows (Pour faire les tests, on pourra créer une machine virtuelle Windows 10 par exemple, nommée "victime", sur laquelle sera installée la partie serveur).
+La partie cliente est codée en python (Pour faire les tests, on pourra créer une machine virtuelle Linux, deb ou rpm, nommée "attaquant", sur laquelle on exécutera notre script python).
+L'interface utilise des sockets.
 
+## Exemple de scénario possible :
+...
