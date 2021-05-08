@@ -5,9 +5,9 @@ Présentation d'un cas simple d'infection simple : un petit cheval de Troie
 J’aimerais vous présenter le cas des infections simples.
 Ces programmes s’installent simplement dans le système.
 L’installation se fait généralement et simultanément :
-	- en mode résident : le processus est actif en mémoire de façon permanente ;
-	- en mode furtif : par exemple le processus n’est pas visible lors de l’affichage des processus en cours (à l’aide des commandes ps -aux ou Ctrl+Alt+Suppr) ;
-	- en mode persistant : en cas d’effacement ou désinstallation, le programme est capable de se réinstaller indépendamment d’un dropper.
+- en mode résident : le processus est actif en mémoire de façon permanente ;
+- en mode furtif : par exemple le processus n’est pas visible lors de l’affichage des processus en cours (à l’aide des commandes ps -aux ou Ctrl+Alt+Suppr) ;
+- en mode persistant : en cas d’effacement ou désinstallation, le programme est capable de se réinstaller indépendamment d’un dropper.
 
 ## Exemple
 Sous Windows, plusieurs copies de ce programme sont cachées dans les répertoires systèmes et une ou plusieurs clefs sont ajoutées dans la base de registres par le programme lors de l’installation initiale.
@@ -15,7 +15,7 @@ C’est le cas du cheval de Troie "Back Orifice 2000" qui ajoute dans la base de
 De cette manière à chaque démarrage de la machine, le module serveur est ainsi réactivé.
 
 ## Les bombes logiques
-Pour ce qui est des bombes logiques, une bombe logique est un programme infectant simple, s’installant dans le système informatique cible et qui attend un événement (une date système, une action, des données particulières …) appelé en général "gâchette", afin d’exécuter sa fonction offensive.
+Pour ce qui est des bombes logiques, une bombe logique est un programme infectant simple, s’installant dans le système informatique cible et qui attend un événement (une date système, une action, des données particulières, …) appelé en général "gâchette", afin d’exécuter sa fonction offensive.
 Les anti-virus détectent mal ces bombes logiques (en effet tant qu’elles n’ont pas été activées, leur signature est inconnue).
 Ce sont en apparence de simples programmes. Mais les techniques évoluées de lutte antivirale (comme l’analyse heuristique, l’émulation de code) sont condamnées à être constamment mises en défaut, face à des bombes logiques inconnues.
 
