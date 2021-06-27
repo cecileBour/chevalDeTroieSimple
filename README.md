@@ -38,5 +38,4 @@ La partie serveur est codée en C, une fois compilée, on a un binaire pour Wind
 La partie cliente est codée en python (Pour faire les tests, on pourra créer une machine virtuelle Linux, deb ou rpm, nommée "attaquant", sur laquelle on exécutera notre script python).
 L'interface utilise des sockets.
 
-## Exemple de scénario possible :
-...
+
