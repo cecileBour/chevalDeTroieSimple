@@ -15,14 +15,14 @@ C’est le cas du cheval de Troie "Back Orifice 2000" qui ajoute dans la base de
 De cette manière à chaque démarrage de la machine, le module serveur est ainsi réactivé.
 
 ## Les bombes logiques
-Pour ce qui est des bombes logiques, une bombe logique est un programme infectant simple, s’installant dans le système informatique cible et qui attend un événement (une date système, une action, des données particulières, …) appelé en général "gâchette", afin d’exécuter sa fonction offensive.
+Une bombe logique est un programme infectant simple, s’installant dans le système informatique cible et qui attend un événement (une date système, une action, des données particulières, …) appelé en général "gâchette", afin d’exécuter sa fonction offensive.
 Les anti-virus détectent mal ces bombes logiques (en effet tant qu’elles n’ont pas été activées, leur signature est inconnue).
 Ce sont en apparence de simples programmes. Mais les techniques évoluées de lutte antivirale (comme l’analyse heuristique, l’émulation de code) sont condamnées à être constamment mises en défaut, face à des bombes logiques inconnues.
 
 ## Les chevaux de Troie
-En ce qui concerne les chevaux de Troie, un cheval de Troie est un programme simple, composé de deux parties, un module serveur et un module client, un peu comme un RAT (Remote Access Tool). Le module serveur, installé dans l’ordinateur de la victime, donne discrètement à l’attaquant accès à tout ou partie de ses ressources, qui en dispose via le réseau (en général), grâce à un module client. 
+Un cheval de Troie est un programme simple, composé de deux parties, un module serveur et un module client, un peu comme un RAT (Remote Access Tool). Le module serveur, installé dans l’ordinateur de la victime, donne discrètement à l’attaquant accès à tout ou partie de ses ressources, qui en dispose via le réseau (en général), grâce à un module client. 
 Le module serveur est un programme dissimulé dans un autre programme anodin et attractif. Une seule exécution de ce programme suffit à installer le module serveur sur la machine de la victime.
-Le module client, une fois installé dans la machine de l’attaquant recherche sur le réseau à l’aide de ping les machines ayant été infectées par le module serveur puis en prend le contrôle, lorsqu’il a obtenu en retour l’adresse IP et le port (TCP ou UDP) des machines accessibles.
+Le module client, une fois installé dans la machine de l’attaquant recherche sur le réseau, à l’aide de ping, les machines ayant été infectées par le module serveur puis en prend le contrôle, lorsqu’il a obtenu en retour l’adresse IP et le port (TCP ou UDP) des machines accessibles.
 
 Remarque : 
 Ces logiciels sont détectés de manière inégale comme les bombes logiques.
